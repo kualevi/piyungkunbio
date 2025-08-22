@@ -49,7 +49,7 @@ tsParticles.load("tsparticles", {
 });
 
 // Typewriter Effect
-const words = ["It's K", "Piyungkun"];
+const words = ["It's Me K", "Piyungkun"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -82,5 +82,6 @@ function type() {
 
   setTimeout(type, isDeleting ? deletingSpeed : typingSpeed);
 }
+
 
 type();
